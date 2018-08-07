@@ -18,6 +18,12 @@
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
+	<repositories>
+		<repository>
+			<id>forplay-legacy</id>
+			<url>http://forplay.googlecode.com/svn/mavenrepo</url>
+		</repository>
+    </repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
